@@ -1,0 +1,33 @@
+Please review the attached PHASE 2 package as lead architect against the fixed MASTER_IMPLEMENTATION_SPEC v1.0 at commit 74b5a011a7c5238fb2146310d48dd7b8ca29009c.
+
+Inspect all six images directly. Reassess the architecture rather than defending the current implementation. The package records the current draft metrics, known limitations, reference provenance, and the exact review questions. Treat MRI as SHAPE_REFERENCE_ONLY; do not claim speaker-specific or Korean measurement.
+
+Return exactly this structure:
+
+[ARCHITECTURE VERDICT]
+KEEP / CHANGE / STOP
+
+[CURRENT IMPLEMENTATION VERDICT]
+Was this implemented in the intended way?
+
+[IMAGE-BY-IMAGE]
+REST: KEEP / REVISE / REBUILD — brief reason
+K: KEEP / REVISE / REBUILD — brief reason
+A: KEEP / REVISE / REBUILD — brief reason
+L: KEEP / REVISE / REBUILD — brief reason
+B: KEEP / REVISE / REBUILD — brief reason
+I: KEEP / REVISE / REBUILD — brief reason
+
+[PHASE 2 BLOCKERS]
+Only genuine blockers.
+
+[WHAT NOT TO FIX]
+Do not list cosmetic edits unless they resolve a real blocker.
+
+[NEXT EXACT ACTION]
+Exactly one next action.
+
+[SPEC REVISION]
+YES / NO. If YES, identify the section and exact proposed correction.
+
+Answer questions A–J in the package. Explicitly decide whether the /l/ area exception should be corrected, whether velar contact-mm QA is appropriate without true velum geometry, whether point-index segmentation must be fixed now, and whether placeholder anatomy prevents approval. Do not equate automatic geometric QA with phonetic or visual validity.
